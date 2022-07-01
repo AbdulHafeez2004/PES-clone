@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(214, 212, 212);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header ul li a {
+  text-decoration: none;
+}
+.main-header ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+}
+.nav-2 {
+  display: flex;
+}
+i {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.main-header ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+.main-header nav ul li a {
+  color: black;
+}
+.main-header a:hover {
+  color: #444;
+}
+.main-header ul li .nav {
+  padding-right: 80px;
+}
+#gp {
+  color: rgb(16, 129, 235);
+}
+#coins {
+  color: gold;
+}
+.main-header .second-header ul li a {
+  color: rgb(16, 129, 235);
+  padding-left: 55px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li a {
+  color: rgb(87, 85, 85);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.menu ul li a span {
+  padding-left: 80px;
+}
+
+.menu ul li a:focus {
+  color: rgb(0, 174, 255);
+}
+.menu ul li a:hover {
+  color: rgb(43, 42, 42);
+}
+
+.big-buttons ul li a {
+  text-decoration: none;
+}
+.big-buttons ul {
+  list-style: none;
+}
+.big-buttons ul li a button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  width: 40vw;
+  height: 20vw;
+  border-radius: 10px;
+}
+.big-buttons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.big-buttons ul li a .squad {
+  background: url(./squad.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.big-buttons ul li a .team {
+  background: url(./my\ team.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.big-buttons ul li a .sm {
+  background: white;
+  color: rgb(16, 129, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-buttons ul li a .sm {
+  height: 10vh;
+  position: relative;
+  top: 80px;
+}
+
+.small-buttons ul li a {
+  text-decoration: none;
+}
+.small-buttons ul {
+  list-style: none;
+}
+.small-buttons ul li a button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  width: 40vw;
+  height: 9vw;
+  border-radius: 10px;
+}
+.small-buttons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.small-buttons ul li a .achievements {
+  background: url(./achievements.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+.small-buttons ul li a .practice {
+  background: url(./practice.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+}
+.small-buttons ul li a .ac {
+  background: white;
+  color: rgb(16, 129, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.small-buttons ul li a .ac {
+  height: 5vh;
+  position: relative;
+  top: 32px;
+  right: 0.1px;
+}
